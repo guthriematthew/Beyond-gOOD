@@ -1,0 +1,16 @@
+#Tests that errors are printed
+A1 =3
+A2 ="blue"
+A3 =true
+A4 =(SUM A1 3 6)
+A5 =(PRODUCT A4 3 (SUM 2 4 6))
+A6 =(< 3 4 5)
+A7 =(CONCAT "seven" "brown")
+A8 =A1
+A9 =A9
+A7 =A13
+A10 =(< true A1)
+A11 =A7
+A13 =A11
+
+B103 =(CONCAT B1:B105)
